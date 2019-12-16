@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* aquarium.css */
+
+#wrap{width: 100%; min-width: 280px; height: 100%; background-color: #136; margin:auto;}
+
+/* headBox =================================================== */
+#headBox{position: relative; padding-top: 20px; width: 100%; height: 752px; background-color: #fac;}
+ h1 {margin-left: 10px; float: left; width: 141px; height: 50px; background-color: #fff;}
+ h1>a{display: block; width: 100%;height: 100%;}
+.navBox{margin-right: 20px; float: right; width: 41px; height: 41px; background-color: #fff; }
+.navBox>a{display: block; width: 100%; height: 100%;}
+.navBox>ul{display: none;}
+
+.h_text{ width: 100%; height: 100%;}
+.h_text>h2{width: 100%; height: 100%;}
+.h_text>h2>dl{position: absolute; top:126px; left:0; right: 0; margin: auto;  width: 100%; height: auto; }
+.h_text>h2>dl>dd{width: 100%; height: auto 0; text-align: center; text-transform:uppercase; font-family: "myriad pro"; margin-top:70px; font-size: 60px; color:#fff;}
+.h_text>h2>dl>dt{width: 100%; height: auto; text-align: center; color:#fff; font-weight: normal;}
+
+.t_box{position: absolute; top:455px; width: 100%; height: 153px; background-color: #333333;}
+.t_box>h3{width: 100%; height: 100%; text-align: center; line-height: 153px; }
+.t_box>h3>a{display: block; width: 100%; height: 100%; color:#fff; font-size: 30px;
+font-family: "myriad pro"; text-transform:uppercase; font-weight: lighter;}
+
+/*  mainBox =================================================== */
+#mainBox{width: 100%; height: 1620px; background-color: #acf; }
+
+ .contentBox{width: 100%; height: 686px; background-color: #fff;padding-top:100px; box-sizing: border-box;}
+
+  .c_box{width: 432px; height: 505px; margin:auto; background-color: #333;}
+  .c_pic_area{width: 100%; height: 365px; background-color: #888;}
+  .menu_area{width: 100%; height: 140px;}
+  .menu_area>ul{width: 100%; height: 100%;}
+  .menu_area>ul>li{float: left; width: 144px; height: 100%; background-color: #cac;}
+  .menu_area>ul>li:nth-child(2){background-color: #ccf;}
+  .menu_area>ul>li>a{display: block; width: 100%; height: 100%; padding:15px; box-sizing: border-box;}
+
+ .picBox{width: 100%; height: 342px; background-color: #888;}
+
+ .adBox{width: 100%; height: 592px; padding-top: 84px; background-color: #fff;}
+  .ad_title {width: 337px; height: 62px; margin: auto; margin-bottom: 30px; background-color: #555;}
+  .ad_area {width: 432px; height: 344px; margin: auto; background-color: #bbf;}
+  .ad_area>a {display: block; width: 100%; height: 100%;}
+
+  
+
+/* footBox =================================================== */
+
+#footBox{width: 100%; height: 390px; background-color: #181818;}
+ .snsBox{width: 100%; height: 87px; border:1px solid #222; border-bottom: none; box-sizing:border-box; background-color: #fff;}
+ .awardBox{width: 100%; height: 87px; border:1px solid #222; box-sizing:border-box; background-color: #fff;}
+ .infoBox{width: 100%; height: 215px;}
+
+
+
+
+/* -design 기준: 480px */
+@media screen and (max-width:479px) {}
+
+/* -design 기준: 480px */
+@media screen and (min-width:479px) and (max-width:767px) {
+
+}
+
+/* -design 기준: 768px */
+@media screen and (min-width:768px) and (max-width:1279px) {
+    #headBox{height: 1200px;padding-top: 34px;}
+    h1 {margin-left: 30px; width: 225px; height: 79px;}
+    .navBox{margin-right: 33px; width: 65px; height: 65px;}
+    .h_text>h2>dl{position: absolute; top:250px;}
+    .h_text>h2>dl>dd{font-size: 80px;}
+    .h_text>h2>dl>dt{font-size: 30px;}
+
+    .t_box{position: absolute; top:728px;}
+
+    #mainBox{height: 2635px;}
+    .contentBox{height: 1097px;padding-top:160px}
+     .c_box{width: 690px; height: 807px;}
+     .c_pic_area{height: 584px;}
+     .menu_area{height: 223px;}
+     .menu_area>ul>li{width: 230px;}
+    .picBox{height: 546px;}
+    .adBox{height: 993px;}
+      .ad_title {width: 540px; height: 100px;}
+      .ad_area {width: 691px; height: 550px}
+
+    #footBox{height: 579px;}
+    .snsBox{height: 130px;}
+    .awardBox{height: 130px;}
+    .infoBox{height: 319px;}
+
+}
+
+/* -design 기준: 1280px */
+@media screen and (min-width:1280px) and (max-width:1919px) {
+    #headBox{height: 1000px; padding-top: 34px;}
+    h1{float: none; width: 304px; height: 108px; margin:auto; margin-bottom: 37px;}
+    .navBox{width: 100%; height: auto; float: none; background-color: rgba(1,1,1,0.3); }
+    .navBox>ul{display: block; width: 1030px; height: auto; margin:auto;}
+    .navBox>ul>li{ float: left; margin-right: 77px; width: 144px; height: 42px;  }
+    .navBox>ul>li:last-child { margin-right: 0;}
+    .navBox>ul>li>a{display: block; width: 100%; height: 100%; color:#fff; font-size: 24px; text-align: center; font-weight: bold; }
+
+    .h_text>h2>dl{position: absolute; top:340px;}
+    .h_text>h2>dl>dd{font-size: 90px;}
+    .h_text>h2>dl>dt{font-size: 40px; }
+
+    .t_box{position: absolute; top:780px; left: 0; right: 0; margin:auto; width: 260px; height: 70px; border-radius: 3rem; background-color: #333333;}
+    .t_box>h3{line-height: 70px;}
+    .t_box>h3>a{font-size: 24px;}
+
+    #mainBox{height: 2836px;}
+    .contentBox{height: 1217px;}
+    .picBox{height: 650px;}
+    .adBox{height: 969px;}
+
+    #footBox{height: 449px;}
+    .snsBox{height: 130px;}
+    .awardBox{display: none;}
+    .infoBox{height: 319px;}
+}
+
+/* -design 기준: 1920px */
+@media screen and (min-width:1920px) {
+    #headBox{height: 1100px; padding-top: 34px;}
+    h1{float: none; width: 304px; height: 108px; margin:auto; margin-bottom: 37px;}
+    .navBox{width: 100%; height: auto; float: none; background-color: rgba(1,1,1,0.3); }
+    .navBox>ul{display: block; width: 1030px; height: auto; margin:auto;}
+    .navBox>ul>li{ float: left; margin-right: 77px; width: 144px; height: 42px;  }
+    .navBox>ul>li:last-child { margin-right: 0;}
+    .navBox>ul>li>a{display: block; width: 100%; height: 100%; color:#fff; font-size: 24px; text-align: center; font-weight: bold;}
+
+    .h_text>h2>dl{position: absolute; top:350px;}
+    .h_text>h2>dl>dd{font-size: 100px;}
+    .h_text>h2>dl>dt{font-size: 48px; }
+
+    .t_box{position: absolute; top:814px; left: 0; right: 0; margin:auto; width: 260px; height: 70px; border-radius: 3rem; background-color: #333333;}
+    .t_box>h3{line-height: 70px;}
+    .t_box>h3>a{font-size: 24px;}
+
+
+    #mainBox{height: 3142px;}
+    .contentBox{height: 1288px;}
+    .picBox{height: 700px;}
+    .adBox{height: 1154px;}
+
+    #footBox{height: 449px;}
+    .snsBox{height: 130px;}
+    .awardBox{display: none;}
+    .infoBox{height: 319px;}
+}

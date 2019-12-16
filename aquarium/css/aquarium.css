@@ -1,0 +1,1131 @@
+@charset "UTF-8";
+#wrap {
+  width: 100%;
+  min-width: 280px;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: visible;
+  background-image: linear-gradient(#0277d0 50%, #283c60);
+  margin: auto; }
+
+/* headBox ============================================================================ */
+#headBox {
+  position: relative;
+  z-index: 100;
+  padding-top: 15px;
+  width: 100%;
+  height: 752px;
+  background-color: #fac;
+  background-image: url(../img/aquarium/headBg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover; }
+  #headBox:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(2, 119, 208, 0) 50%, #0277d0); }
+  #headBox > h1 {
+    margin-left: 10px;
+    float: left;
+    width: 141px;
+    height: 50px;
+    background-image: url(../img/aquarium/logo.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: contain; }
+    #headBox > h1 a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  #headBox > .navPop_up {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(1, 1, 1, 0.8); }
+    #headBox > .navPop_up > ul {
+      position: absolute;
+      width: 100%;
+      height: 10vw;
+      top: 30%; }
+      #headBox > .navPop_up > ul > li {
+        width: 120px;
+        height: 50px;
+        margin: auto;
+        text-align: center; }
+        #headBox > .navPop_up > ul > li > a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          color: #fff;
+          line-height: 50px;
+          font-size: 20px; }
+    #headBox > .navPop_up > .close {
+      position: absolute;
+      top: 20%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      font-size: 2.5rem; }
+      #headBox > .navPop_up > .close > a {
+        color: #fff; }
+  #headBox .navBox {
+    margin-right: 20px;
+    padding-top: 5px;
+    float: right;
+    width: 41px;
+    height: 41px; }
+    #headBox .navBox > a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-image: url(../img/aquarium/nav_btn.png);
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-size: contain; }
+    #headBox .navBox > .gnb {
+      display: none; }
+  #headBox .h_text {
+    width: 100%;
+    height: 100%; }
+    #headBox .h_text > .head_text {
+      width: 100%;
+      height: 100%;
+      font-weight: bold; }
+      #headBox .h_text > .head_text > dl {
+        position: absolute;
+        top: 126px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 100%;
+        height: auto; }
+        #headBox .h_text > .head_text > dl > dt {
+          width: 100%;
+          height: auto;
+          text-align: center;
+          text-transform: uppercase;
+          font-family: "myriad pro";
+          margin-top: 50px;
+          font-size: 60px;
+          color: #fff;
+          text-shadow: 3px 3px 4px #111; }
+        #headBox .h_text > .head_text > dl > dd {
+          width: 100%;
+          height: auto;
+          text-align: center;
+          font-size: 25px;
+          color: #fff;
+          margin-top: 10px;
+          font-weight: normal;
+          text-shadow: 3px 3px 4px #111; }
+  #headBox .t_box {
+    position: absolute;
+    top: 455px;
+    width: 100%;
+    height: 153px;
+    background-color: #333333; }
+    #headBox .t_box > h3 {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      line-height: 153px; }
+      #headBox .t_box > h3 > a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        font-size: 30px;
+        font-family: "myriad pro";
+        text-transform: uppercase;
+        font-weight: bold; }
+
+/*  mainBox =================================================== */
+#mainBox {
+  width: 100%;
+  height: 1620px; }
+  #mainBox .contentBox {
+    width: 100%;
+    height: 686px;
+    padding-top: 100px;
+    box-sizing: border-box; }
+    #mainBox .contentBox .c_box {
+      width: 432px;
+      height: 505px;
+      margin: auto; }
+    #mainBox .contentBox .c_pic_area {
+      position: relative;
+      width: 100%;
+      height: 365px; }
+      #mainBox .contentBox .c_pic_area > ul {
+        width: 100%;
+        height: 100%; }
+        #mainBox .contentBox .c_pic_area > ul > li {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+          background-size: cover; }
+        #mainBox .contentBox .c_pic_area > ul > li:nth-child(1) {
+          background-image: url("../img/aquarium/guide_01.jpg"); }
+        #mainBox .contentBox .c_pic_area > ul > li:nth-child(2) {
+          background-image: url("../img/aquarium/guide_02.jpg"); }
+        #mainBox .contentBox .c_pic_area > ul > li:nth-child(3) {
+          background-image: url("../img/aquarium/guide_03.jpg"); }
+    #mainBox .contentBox .menu_area {
+      width: 100%;
+      height: 140px; }
+      #mainBox .contentBox .menu_area > ul {
+        width: 100%;
+        height: 100%; }
+        #mainBox .contentBox .menu_area > ul > li {
+          float: left;
+          width: 144px;
+          height: 100%;
+          background-color: rgba(1, 1, 1, 0.5); }
+          #mainBox .contentBox .menu_area > ul > li > a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box; }
+            #mainBox .contentBox .menu_area > ul > li > a > span {
+              display: block;
+              width: 100%;
+              height: 100%;
+              color: #fff;
+              font-size: 16px;
+              line-height: 30px;
+              text-align: center;
+              font-weight: bold;
+              padding-top: 35px;
+              box-sizing: border-box; }
+          #mainBox .contentBox .menu_area > ul > li > a:focus {
+            background-color: rgba(1, 1, 1, 0.8); }
+        #mainBox .contentBox .menu_area > ul > li:nth-child(2) span {
+          box-sizing: border-box;
+          padding-top: 50px; }
+  #mainBox > .picBox {
+    position: relative;
+    width: 90%;
+    height: 342px;
+    background-color: #888;
+    overflow: hidden;
+    margin: auto; }
+    #mainBox > .picBox > video {
+      width: auto;
+      height: auto;
+      min-width: 100%;
+      min-height: 100%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%); }
+  #mainBox > .adBox {
+    position: relative;
+    width: 100%;
+    height: 592px;
+    padding-top: 60px;
+    box-sizing: border-box;
+    overflow: hidden; }
+    #mainBox > .adBox > .indicator {
+      position: absolute;
+      left: 50%;
+      bottom: 20px;
+      transform: translateX(-50%);
+      width: auto;
+      height: 40px; }
+      #mainBox > .adBox > .indicator > li {
+        float: left;
+        width: auto;
+        height: auto;
+        margin-left: 15px; }
+        #mainBox > .adBox > .indicator > li:nth-child(1) {
+          margin-left: 0; }
+        #mainBox > .adBox > .indicator > li > a {
+          display: block;
+          width: 20px;
+          height: 20px;
+          background-color: #959595;
+          border-radius: 100%; }
+        #mainBox > .adBox > .indicator > li.action > a {
+          width: 60px;
+          background-color: #252525;
+          border-radius: 20px; }
+        #mainBox > .adBox > .indicator > li > a:focus {
+          background-color: #252525;
+          border-radius: 20px; }
+    #mainBox > .adBox > .ad_title {
+      width: 337px;
+      height: 62px;
+      margin: auto;
+      margin-bottom: 30px;
+      color: #fff;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 62px;
+      font-size: 40px;
+      text-shadow: 3px 3px 4px #111; }
+    #mainBox > .adBox .pc_ad_title {
+      display: none; }
+    #mainBox > .adBox .ad_text {
+      display: none; }
+    #mainBox > .adBox > .ad_area {
+      width: 100%;
+      height: 350px; }
+      #mainBox > .adBox > .ad_area > .ad_zone {
+        width: 270px;
+        height: 350px;
+        margin: auto; }
+        #mainBox > .adBox > .ad_area > .ad_zone > ul {
+          position: relative;
+          width: 1350px;
+          height: 100%;
+          transform: translateX(-50%);
+          margin-left: 50%; }
+          #mainBox > .adBox > .ad_area > .ad_zone > ul > li {
+            float: left;
+            width: 270px;
+            height: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            transition: all 500ms ease; }
+            #mainBox > .adBox > .ad_area > .ad_zone > ul > li > a {
+              display: block;
+              width: 100%;
+              height: 100%;
+              background-repeat: no-repeat;
+              background-position: 50% 50%;
+              background-size: contain; }
+            #mainBox > .adBox > .ad_area > .ad_zone > ul > li > a.ad_pic_1 {
+              background-image: url("../img/aquarium/ad_01.png"); }
+            #mainBox > .adBox > .ad_area > .ad_zone > ul > li > a.ad_pic_2 {
+              background-image: url("../img/aquarium/ad_02.png"); }
+            #mainBox > .adBox > .ad_area > .ad_zone > ul > li > a.ad_pic_3 {
+              background-image: url("../img/aquarium/ad_03.png"); }
+            #mainBox > .adBox > .ad_area > .ad_zone > ul > li > a.ad_pic_4 {
+              background-image: url("../img/aquarium/ad_04.png"); }
+            #mainBox > .adBox > .ad_area > .ad_zone > ul > li > a.ad_pic_5 {
+              background-image: url("../img/aquarium/ad_05.png"); }
+          #mainBox > .adBox > .ad_area > .ad_zone > ul > li.action {
+            padding: 0; }
+      #mainBox > .adBox > .ad_area > a {
+        display: block;
+        width: 100%;
+        height: 100%; }
+  #mainBox .bgBox {
+    display: none; }
+
+/* footBox =================================================== */
+#footBox {
+  width: 100%;
+  height: 340px;
+  background-color: #181818; }
+  #footBox > .snsBox {
+    width: 100%;
+    height: 70px;
+    border: 1px solid #222;
+    border-bottom: none;
+    box-sizing: border-box;
+    background-color: #fff; }
+    #footBox > .snsBox > ul {
+      width: 90%;
+      height: 100%;
+      margin: auto;
+      padding-top: 15px;
+      box-sizing: border-box; }
+      #footBox > .snsBox > ul > li {
+        float: left;
+        width: 20vw;
+        max-width: 175px;
+        height: 5vw;
+        max-height: 55px;
+        background-color: #ccc;
+        margin-right: 2%; }
+        #footBox > .snsBox > ul > li > a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          background-repeat: no-repeat;
+          background-size: 400%;
+          background-image: url(../img/aquarium/sns_link.jpg); }
+      #footBox > .snsBox > ul > li:nth-child(1) > a {
+        background-position: 0 0; }
+      #footBox > .snsBox > ul > li:nth-child(2) > a {
+        background-position: 33% 0; }
+      #footBox > .snsBox > ul > li:nth-child(3) > a {
+        background-position: 66% 0; }
+      #footBox > .snsBox > ul > li:nth-child(4) > a {
+        background-position: 99% 0; }
+      #footBox > .snsBox > ul > li:nth-child(5) {
+        display: none; }
+      #footBox > .snsBox > ul > li:nth-child(6) {
+        display: none; }
+      #footBox > .snsBox > ul > li:nth-child(7) {
+        display: none; }
+      #footBox > .snsBox > ul > li:last-child {
+        margin-right: 0; }
+  #footBox > .awardBox {
+    width: 100%;
+    height: 70px;
+    border: 1px solid #222;
+    box-sizing: border-box;
+    background-color: #fff; }
+    #footBox > .awardBox > ul {
+      width: 90%;
+      height: 100%;
+      margin: auto;
+      padding-top: 10px;
+      box-sizing: border-box; }
+      #footBox > .awardBox > ul > li {
+        float: left;
+        width: 27vw;
+        max-width: 230px;
+        height: 8vw;
+        max-height: 48px;
+        background-color: #ccc;
+        background-repeat: no-repeat;
+        background-image: url(../img/aquarium/bn_award_mobile.jpg); }
+      #footBox > .awardBox > ul > li:nth-child(1) {
+        background-size: 400%;
+        background-position: 0 50%; }
+      #footBox > .awardBox > ul > li:nth-child(1) > a {
+        display: block;
+        width: 100%;
+        height: 100%; }
+      #footBox > .awardBox > ul > li:nth-child(2) {
+        background-size: 300%;
+        background-position: 33% 50%;
+        margin-right: 5px; }
+      #footBox > .awardBox > ul > li:nth-child(3) {
+        background-size: 240%;
+        background-position: 97% 30%; }
+      #footBox > .awardBox > ul > li:last-child {
+        margin-right: 0; }
+  #footBox > .infoBox {
+    padding-top: 20px;
+    width: 100%;
+    height: 125px;
+    box-sizing: border-box;
+    color: #eee;
+    font-weight: lighter; }
+    #footBox > .infoBox > .info_01 {
+      font-size: 0.5rem;
+      margin-bottom: 20px; }
+      #footBox > .infoBox > .info_01 > a {
+        color: #eee; }
+    #footBox > .infoBox > .info_02 {
+      font-size: 0.2rem;
+      word-spacing: keep-all; }
+
+/* -design 기준: ~480px */
+@media screen and (max-width: 479px) {
+  #mainBox {
+    height: 1538px; }
+    #mainBox .contentBox {
+      height: 570px;
+      padding-top: 80px; }
+      #mainBox .contentBox .c_box {
+        width: 300px;
+        height: 390px; }
+      #mainBox .contentBox .c_pic_area {
+        height: 290px; }
+      #mainBox .contentBox .menu_area {
+        width: 100%;
+        height: 100px; }
+        #mainBox .contentBox .menu_area > ul > li {
+          width: 100px; }
+          #mainBox .contentBox .menu_area > ul > li > a > span {
+            font-size: 10px;
+            line-height: 20px;
+            padding-top: 26px; }
+        #mainBox .contentBox .menu_area > ul > li:nth-child(2) span {
+          padding-top: 35px; } }
+
+/* -design 기준: 480px */
+/* -design 기준: 768px */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  #headBox {
+    height: 1200px;
+    padding-top: 25px; }
+    #headBox > h1 {
+      margin-left: 30px;
+      width: 200px;
+      height: 79px; }
+    #headBox > .navPop_up {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 50;
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(1, 1, 1, 0.8); }
+      #headBox > .navPop_up > ul {
+        position: absolute;
+        width: 100%;
+        height: 10vw;
+        top: 36%; }
+        #headBox > .navPop_up > ul > li {
+          width: 150px;
+          height: 50px;
+          margin: auto;
+          text-align: center; }
+          #headBox > .navPop_up > ul > li > a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: #fff;
+            line-height: 50px;
+            font-size: 25px; }
+      #headBox > .navPop_up > .close {
+        position: absolute;
+        top: 30%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 3rem; }
+        #headBox > .navPop_up > .close > a {
+          color: #fff; }
+    #headBox > .navBox {
+      margin-right: 33px;
+      width: 65px;
+      height: 65px; }
+    #headBox > .h_text > .head_text > dl {
+      position: absolute;
+      top: 250px; }
+      #headBox > .h_text > .head_text > dl > dt {
+        font-size: 80px; }
+      #headBox > .h_text > .head_text > dl > dd {
+        font-size: 30px; }
+    #headBox > .h_text > .t_box {
+      position: absolute;
+      top: 728px; }
+  #mainBox {
+    height: 2612px; }
+    #mainBox > .contentBox {
+      height: 1097px;
+      padding-top: 160px; }
+      #mainBox > .contentBox > .c_box {
+        width: 690px;
+        height: 807px; }
+        #mainBox > .contentBox > .c_box > .c_pic_area {
+          height: 584px; }
+        #mainBox > .contentBox > .c_box > .menu_area {
+          height: 223px; }
+          #mainBox > .contentBox > .c_box > .menu_area > ul > li {
+            width: 230px; }
+            #mainBox > .contentBox > .c_box > .menu_area > ul > li > a > span {
+              font-size: 30px;
+              line-height: 45px;
+              text-align: center;
+              font-weight: bold;
+              padding-top: 60px;
+              box-sizing: border-box; }
+          #mainBox > .contentBox > .c_box > .menu_area > ul > li:nth-child(2) span {
+            padding-top: 80px; }
+          #mainBox > .contentBox > .c_box > .menu_area > ul > li:hover {
+            background-color: rgba(1, 1, 1, 0.8); }
+    #mainBox > .picBox {
+      height: 546px; }
+    #mainBox > .adBox {
+      height: 970px;
+      padding-top: 100px; }
+      #mainBox > .adBox > .indicator {
+        width: auto;
+        bottom: 10%; }
+        #mainBox > .adBox > .indicator > li {
+          float: left; }
+          #mainBox > .adBox > .indicator > li > a {
+            width: 25px;
+            height: 25px; }
+      #mainBox > .adBox > .ad_title {
+        width: 540px;
+        height: 100px;
+        font-size: 45px; }
+      #mainBox > .adBox > .ad_area {
+        height: 510px; }
+        #mainBox > .adBox > .ad_area > .ad_zone {
+          width: 430px;
+          height: 510px; }
+          #mainBox > .adBox > .ad_area > .ad_zone > ul {
+            width: 2150px;
+            height: 100%;
+            transform: translateX(-50%);
+            margin-left: 50%; }
+            #mainBox > .adBox > .ad_area > .ad_zone > ul > li {
+              width: 430px;
+              height: 510px; }
+  #footBox {
+    height: 450px; }
+    #footBox > .snsBox {
+      height: 100px; }
+      #footBox > .snsBox > ul {
+        padding-top: 20px; }
+    #footBox > .awardBox {
+      height: 100px; }
+      #footBox > .awardBox > ul > li {
+        max-height: 60px; }
+    #footBox .infoBox {
+      width: 90%;
+      height: 170px;
+      margin: auto; }
+      #footBox .infoBox > .info_01 {
+        font-size: 0.9rem; }
+      #footBox .infoBox > .info_02 {
+        font-size: 0.8rem; } }
+
+/* -design 기준: 1280px */
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  #headBox {
+    height: 1000px;
+    padding-top: 34px; }
+    #headBox > h1 {
+      float: none;
+      width: 250px;
+      height: 90px;
+      margin: auto;
+      margin-bottom: 37px; }
+    #headBox > .navPop_up {
+      display: none; }
+    #headBox > .navBox {
+      width: 100%;
+      height: 70px;
+      float: none;
+      background-color: rgba(1, 1, 1, 0.3);
+      line-height: 70px;
+      padding: 0; }
+      #headBox > .navBox > a {
+        display: none; }
+      #headBox > .navBox > .gnb {
+        position: relative;
+        z-index: 100;
+        display: block;
+        width: 950px;
+        height: auto;
+        margin: auto; }
+        #headBox > .navBox > .gnb:before {
+          position: absolute;
+          content: " ";
+          left: 50%;
+          margin-left: -50vw;
+          z-index: -50;
+          margin-top: 70px;
+          display: block;
+          width: 100vw;
+          height: 0;
+          background-color: rgba(1, 1, 1, 0.8);
+          transition: all 600ms ease 0.1ms; }
+        #headBox > .navBox > .gnb.view:before {
+          height: 100%; }
+        #headBox > .navBox > .gnb > dl {
+          float: left;
+          margin-right: 40px;
+          width: 144px;
+          height: auto; }
+          #headBox > .navBox > .gnb > dl > dt {
+            width: 100%;
+            height: 70px; }
+            #headBox > .navBox > .gnb > dl > dt > a {
+              display: block;
+              width: 100%;
+              height: 100%;
+              color: #fff;
+              font-size: 20px;
+              text-align: center;
+              font-weight: bold; }
+          #headBox > .navBox > .gnb > dl > dt:last-child {
+            margin-right: 0; }
+          #headBox > .navBox > .gnb > dl > dd {
+            width: 100%;
+            height: auto;
+            text-align: center;
+            display: none; }
+            #headBox > .navBox > .gnb > dl > dd > ul {
+              width: 100%;
+              height: auto; }
+              #headBox > .navBox > .gnb > dl > dd > ul > li {
+                width: 100%;
+                height: auto;
+                margin-bottom: 5px; }
+                #headBox > .navBox > .gnb > dl > dd > ul > li > a {
+                  display: block;
+                  width: 100%;
+                  height: 70px;
+                  color: #fff; }
+      #headBox > .navBox:hover {
+        background-color: rgba(1, 1, 1, 0.8); }
+    #headBox .h_text {
+      height: 788px; }
+      #headBox .h_text > .head_text > dl {
+        position: absolute;
+        top: 340px; }
+        #headBox .h_text > .head_text > dl > dt {
+          font-size: 80px; }
+        #headBox .h_text > .head_text > dl > dd {
+          font-size: 40px; }
+      #headBox .h_text > .t_box {
+        position: absolute;
+        top: 780px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 220px;
+        height: 60px;
+        border-radius: 3rem; }
+        #headBox .h_text > .t_box > h3 {
+          line-height: 60px; }
+          #headBox .h_text > .t_box > h3 > a {
+            font-size: 20px;
+            border-radius: 3rem;
+            background-color: #333333; }
+          #headBox .h_text > .t_box > h3 > a:hover,
+          #headBox .h_text > .t_box > h3 > a:focus {
+            background-color: #fff;
+            color: #192d56;
+            box-shadow: 2px 4px 5px #333; }
+  #mainBox {
+    height: 2850px; }
+    #mainBox > .contentBox {
+      position: relative;
+      height: 1100px; }
+      #mainBox > .contentBox > .c_box {
+        width: 100%;
+        height: 100%;
+        background-color: inherit; }
+        #mainBox > .contentBox > .c_box > .c_pic_area {
+          position: absolute;
+          top: 25%;
+          left: 0;
+          right: 0;
+          margin: auto;
+          width: 700px;
+          height: 590px;
+          box-shadow: 5px 5px 12px #111; }
+        #mainBox > .contentBox > .c_box > .menu_area {
+          position: absolute;
+          top: 40%;
+          right: 0;
+          width: auto;
+          height: auto; }
+          #mainBox > .contentBox > .c_box > .menu_area > ul {
+            width: 40vw;
+            height: auto; }
+            #mainBox > .contentBox > .c_box > .menu_area > ul > li {
+              float: right;
+              width: 40vw;
+              height: 105px;
+              margin-bottom: 30px;
+              background-color: rgba(1, 1, 1, 0.5); }
+              #mainBox > .contentBox > .c_box > .menu_area > ul > li > a > span {
+                width: auto;
+                height: 100%;
+                color: #fff;
+                font-size: 28px;
+                line-height: 55px;
+                text-align: right;
+                font-weight: bold;
+                margin-right: 48%;
+                padding-top: 25px; }
+                #mainBox > .contentBox > .c_box > .menu_area > ul > li > a > span > .br {
+                  display: none; }
+            #mainBox > .contentBox > .c_box > .menu_area > ul > li:nth-child(2) span {
+              padding-top: 25px; }
+            #mainBox > .contentBox > .c_box > .menu_area > ul > li:last-child {
+              margin-bottom: 0; }
+            #mainBox > .contentBox > .c_box > .menu_area > ul > li:hover, #mainBox > .contentBox > .c_box > .menu_area > ul > li.act {
+              background-color: rgba(1, 1, 1, 0.9);
+              width: 666px;
+              height: 120px;
+              line-height: 133px;
+              padding-top: 15px; }
+    #mainBox > .picBox {
+      height: 750px; }
+    #mainBox > .adBox {
+      position: relative;
+      position: relative;
+      height: 1000px; }
+      #mainBox > .adBox > .bgBox_02 > .pc_ad_title {
+        display: block;
+        position: absolute;
+        right: 20%;
+        top: 32%;
+        font-size: 50px;
+        width: 337px;
+        height: 62px;
+        margin: auto;
+        margin-bottom: 30px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 62px;
+        text-shadow: 3px 3px 4px #111; }
+      #mainBox > .adBox > .bgBox_02 > .ad_text {
+        display: block;
+        position: absolute;
+        top: 45%;
+        right: 20%;
+        color: #fff;
+        text-align: center;
+        font-size: 32px; }
+      #mainBox > .adBox > .indicator {
+        width: auto;
+        bottom: 10%; }
+        #mainBox > .adBox > .indicator > li {
+          float: left; }
+          #mainBox > .adBox > .indicator > li > a {
+            width: 25px;
+            height: 25px; }
+      #mainBox > .adBox > .ad_title {
+        display: none; }
+      #mainBox > .adBox > .ad_area {
+        position: absolute;
+        height: 510px;
+        top: 50%;
+        left: 40%;
+        transform: translateY(-50%);
+        overflow: hidden; }
+        #mainBox > .adBox > .ad_area > .ad_zone {
+          width: 430px;
+          height: 510px;
+          margin: 0; }
+          #mainBox > .adBox > .ad_area > .ad_zone > ul {
+            width: 2150px;
+            height: 100%;
+            transform: translateX(0);
+            margin-left: 0; }
+            #mainBox > .adBox > .ad_area > .ad_zone > ul > li {
+              width: 430px;
+              height: 510px; }
+    #mainBox .bg_box {
+      position: absolute;
+      top: 20%;
+      width: 50%;
+      height: 615px;
+      background-color: rgba(1, 1, 1, 0.5); }
+  #footBox {
+    height: 380px; }
+    #footBox > .snsBox {
+      height: 130px; }
+      #footBox > .snsBox > ul {
+        width: 90%;
+        margin-top: 20px; }
+        #footBox > .snsBox > ul > li {
+          width: 11vw;
+          height: 40px;
+          margin-right: 15px; }
+        #footBox > .snsBox > ul > li:nth-child(5) {
+          max-width: 160px;
+          min-height: 60px;
+          display: block; }
+        #footBox > .snsBox > ul > li:nth-child(5) > a {
+          background-image: url(../img/aquarium/bn_award_mobile.jpg);
+          background-position: 0 -20px;
+          background-size: 450%; }
+        #footBox > .snsBox > ul > li:nth-child(6) {
+          display: block;
+          max-width: 160px;
+          min-height: 50px;
+          background-image: url(../img/aquarium/bn_award_mobile.jpg);
+          background-position: -120px -15px;
+          background-size: 340%; }
+        #footBox > .snsBox > ul > li:nth-child(7) {
+          display: block;
+          min-width: 190px;
+          min-height: 60px;
+          background-image: url(../img/aquarium/bn_award_mobile.jpg);
+          background-position: -280px -15px;
+          background-size: 260%; }
+    #footBox > .awardBox {
+      display: none; }
+    #footBox > .infoBox {
+      margin: auto;
+      width: 80%;
+      height: 200px;
+      box-sizing: border-box; }
+      #footBox > .infoBox > .info_01 {
+        font-size: 1.2rem; }
+      #footBox > .infoBox > .info_02 {
+        font-size: 1rem; } }
+
+/* -design 기준: 1920px */
+@media screen and (min-width: 1920px) {
+  #headBox {
+    height: 1100px;
+    padding-top: 34px; }
+    #headBox > h1 {
+      float: none;
+      width: 250px;
+      height: 90px;
+      margin: auto;
+      margin-bottom: 37px; }
+    #headBox > .navPop_up {
+      display: none; }
+    #headBox > .navBox {
+      width: 100%;
+      height: 70px;
+      float: none;
+      background-color: rgba(1, 1, 1, 0.3);
+      line-height: 70px;
+      padding: 0; }
+      #headBox > .navBox > a {
+        display: none; }
+      #headBox > .navBox > .gnb {
+        position: relative;
+        z-index: 100;
+        display: block;
+        width: 950px;
+        height: auto;
+        margin: auto; }
+        #headBox > .navBox > .gnb:before {
+          position: absolute;
+          content: " ";
+          left: 50%;
+          margin-left: -50vw;
+          z-index: -50;
+          margin-top: 70px;
+          display: block;
+          width: 100vw;
+          height: calc(100% - 70px);
+          background-color: rgba(1, 1, 1, 0.8);
+          transition: all 600ms ease; }
+        #headBox > .navBox > .gnb.view:before {
+          height: 100%; }
+        #headBox > .navBox > .gnb > dl {
+          float: left;
+          margin-right: 40px;
+          width: 144px;
+          height: auto; }
+          #headBox > .navBox > .gnb > dl > dt {
+            width: 100%;
+            height: 70px; }
+            #headBox > .navBox > .gnb > dl > dt > a {
+              display: block;
+              width: 100%;
+              height: 100%;
+              color: #fff;
+              font-size: 20px;
+              text-align: center;
+              font-weight: bold; }
+          #headBox > .navBox > .gnb > dl > dt:last-child {
+            margin-right: 0; }
+          #headBox > .navBox > .gnb > dl > dd {
+            width: 100%;
+            height: auto;
+            text-align: center;
+            display: none; }
+            #headBox > .navBox > .gnb > dl > dd > ul {
+              width: 100%;
+              height: auto; }
+              #headBox > .navBox > .gnb > dl > dd > ul > li {
+                width: 100%;
+                height: auto;
+                margin-bottom: 5px; }
+                #headBox > .navBox > .gnb > dl > dd > ul > li > a {
+                  display: block;
+                  width: 100%;
+                  height: 70px;
+                  color: #fff; }
+      #headBox > .navBox:hover {
+        background-color: rgba(1, 1, 1, 0.8); }
+    #headBox .h_text {
+      height: 888px; }
+      #headBox .h_text > .head_text > dl {
+        position: absolute;
+        top: 370px; }
+        #headBox .h_text > .head_text > dl > dt {
+          font-size: 80px; }
+        #headBox .h_text > .head_text > dl > dd {
+          font-size: 40px; }
+      #headBox .h_text > .t_box {
+        position: absolute;
+        top: 814px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 220px;
+        height: 60px;
+        border-radius: 3rem; }
+        #headBox .h_text > .t_box > h3 {
+          line-height: 65px; }
+          #headBox .h_text > .t_box > h3 > a {
+            display: block;
+            font-size: 20px;
+            background-color: #333333;
+            border-radius: 3rem; }
+          #headBox .h_text > .t_box > h3 > a:hover,
+          #headBox .h_text > .t_box > h3 > a:focus {
+            background-color: #fff;
+            color: #192d56;
+            box-shadow: 2px 4px 5px #333; }
+  #mainBox {
+    height: 3120px; }
+    #mainBox > .contentBox {
+      position: relative;
+      height: 1100px; }
+      #mainBox > .contentBox > .c_box {
+        width: 100%;
+        height: 100%;
+        background-color: inherit; }
+        #mainBox > .contentBox > .c_box > .c_pic_area {
+          position: absolute;
+          top: 25%;
+          left: 0;
+          right: 0;
+          margin: auto;
+          width: 700px;
+          height: 590px;
+          box-shadow: 5px 5px 12px #111; }
+        #mainBox > .contentBox > .c_box > .menu_area {
+          position: absolute;
+          top: 40%;
+          right: 0;
+          width: auto;
+          height: auto; }
+          #mainBox > .contentBox > .c_box > .menu_area > ul {
+            width: 40vw;
+            height: auto; }
+            #mainBox > .contentBox > .c_box > .menu_area > ul > li {
+              float: right;
+              width: 40vw;
+              height: 105px;
+              margin-bottom: 30px;
+              background-color: rgba(1, 1, 1, 0.5); }
+              #mainBox > .contentBox > .c_box > .menu_area > ul > li > a > span {
+                width: auto;
+                height: 100%;
+                color: #fff;
+                font-size: 30px;
+                line-height: 55px;
+                text-align: right;
+                font-weight: bold;
+                margin-right: 60%;
+                padding-top: 20px; }
+                #mainBox > .contentBox > .c_box > .menu_area > ul > li > a > span > .br {
+                  display: none; }
+            #mainBox > .contentBox > .c_box > .menu_area > ul > li:nth-child(2) span {
+              padding-top: 20px; }
+            #mainBox > .contentBox > .c_box > .menu_area > ul > li:last-child {
+              margin-bottom: 0; }
+            #mainBox > .contentBox > .c_box > .menu_area > ul > li:hover, #mainBox > .contentBox > .c_box > .menu_area > ul > li.act {
+              background-color: rgba(1, 1, 1, 0.9);
+              width: 880px;
+              height: 120px;
+              padding-top: 22px; }
+    #mainBox > .picBox {
+      height: 950px; }
+    #mainBox > .adBox {
+      position: relative;
+      height: 970px;
+      padding-top: 80px; }
+      #mainBox > .adBox > .bgBox_02 > .pc_ad_title {
+        display: block;
+        position: absolute;
+        right: 15%;
+        top: 32%;
+        font-size: 50px;
+        width: 337px;
+        height: 62px;
+        margin: auto;
+        margin-bottom: 30px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 62px;
+        text-shadow: 3px 3px 4px #111; }
+      #mainBox > .adBox > .bgBox_02 > .ad_text {
+        display: block;
+        position: absolute;
+        top: 45%;
+        right: 15%;
+        color: #fff;
+        text-align: center;
+        font-size: 32px; }
+      #mainBox > .adBox > .indicator {
+        width: auto;
+        bottom: 8%; }
+        #mainBox > .adBox > .indicator > li {
+          float: left; }
+          #mainBox > .adBox > .indicator > li > a {
+            width: 25px;
+            height: 25px; }
+      #mainBox > .adBox > .ad_title {
+        display: none; }
+      #mainBox > .adBox > .ad_area {
+        position: absolute;
+        height: 510px;
+        top: 50%;
+        left: 43%;
+        transform: translateY(-50%);
+        overflow: hidden; }
+        #mainBox > .adBox > .ad_area > .ad_zone {
+          width: 430px;
+          height: 510px;
+          margin: 0; }
+          #mainBox > .adBox > .ad_area > .ad_zone > ul {
+            width: 2150px;
+            height: 100%;
+            transform: translateX(0);
+            margin-left: 0; }
+            #mainBox > .adBox > .ad_area > .ad_zone > ul > li {
+              width: 430px;
+              height: 510px; }
+    #mainBox .bg_box {
+      position: absolute;
+      top: 20%;
+      width: 50%;
+      height: 615px;
+      background-color: rgba(1, 1, 1, 0.5); }
+  #footBox {
+    height: 400px; }
+    #footBox > .snsBox {
+      height: 130px; }
+      #footBox > .snsBox > ul {
+        width: 80%;
+        margin-top: 20px; }
+        #footBox > .snsBox > ul > li:nth-child(5) {
+          max-height: 60px;
+          display: block; }
+        #footBox > .snsBox > ul > li:nth-child(5) > a {
+          background-image: url(../img/aquarium/bn_award_mobile.jpg);
+          background-position: 0 -20px; }
+        #footBox > .snsBox > ul > li:nth-child(6) {
+          display: block;
+          max-height: 60px;
+          background-image: url(../img/aquarium/bn_award_mobile.jpg);
+          background-position: -160px -20px; }
+        #footBox > .snsBox > ul > li:nth-child(7) {
+          display: block;
+          max-width: 280px;
+          background-image: url(../img/aquarium/bn_award_mobile.jpg);
+          background-position: -365px -20px; }
+    #footBox > .awardBox {
+      display: none; }
+    #footBox > .infoBox {
+      margin: auto;
+      width: 80%;
+      height: 219px; }
+      #footBox > .infoBox > .info_01 {
+        font-size: 0.9rem; }
+      #footBox > .infoBox > .info_02 {
+        font-size: 0.8rem; } }

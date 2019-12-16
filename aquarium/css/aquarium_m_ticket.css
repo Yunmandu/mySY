@@ -1,0 +1,183 @@
+/* aquarium_m_ticket.css */
+#wrap {
+  width: 100%;
+  min-width: 280px;
+  height: auto; }
+
+/* headBox ============================================================================ */
+#headBox {
+  position: relative;
+  z-index: 100;
+  padding-top: 10px;
+  width: 100%;
+  height: 60px;
+  background-color: #283c60; }
+  #headBox:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #headBox > h1 {
+    margin-left: 10px;
+    float: left;
+    width: 141px;
+    height: 50px;
+    background-image: url(../img/aquarium/logo.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: contain; }
+    #headBox > h1 a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  #headBox .navBox {
+    margin-right: 20px;
+    padding-top: 5px;
+    float: right;
+    width: 41px;
+    height: 41px; }
+    #headBox .navBox > a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-image: url(../img/aquarium/nav_btn.png);
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-size: contain; }
+    #headBox .navBox > ul {
+      display: none; }
+
+#mainBox {
+  width: 100%;
+  height: auto; }
+  #mainBox > h2 {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 40px;
+    text-transform: uppercase; }
+  #mainBox .ticket_Box {
+    width: 100%;
+    height: auto; }
+    #mainBox .ticket_Box > li {
+      position: relative;
+      width: 100%;
+      height: 230px; }
+      #mainBox .ticket_Box > li > .t_pic {
+        position: absolute;
+        top: 25px;
+        width: 170px;
+        height: 170px;
+        background-color: #333; }
+      #mainBox .ticket_Box > li:nth-child(2n) .t_pic {
+        right: 7%; }
+      #mainBox .ticket_Box > li:nth-child(2n-1) .t_pic {
+        left: 7%; }
+      #mainBox .ticket_Box > li > .bg_box {
+        position: absolute;
+        z-index: -100;
+        bottom: 0;
+        width: 100%;
+        height: 132px;
+        background-color: rgba(1, 1, 1, 0.5); }
+
+#footBox {
+  width: 100%;
+  height: 340px;
+  background-color: #181818; }
+  #footBox > .snsBox {
+    width: 100%;
+    height: 70px;
+    border: 1px solid #222;
+    border-bottom: none;
+    box-sizing: border-box;
+    background-color: #fff; }
+    #footBox > .snsBox > ul {
+      width: 90%;
+      height: 100%;
+      margin: auto;
+      padding-top: 15px;
+      box-sizing: border-box; }
+      #footBox > .snsBox > ul > li {
+        float: left;
+        width: 20vw;
+        max-width: 175px;
+        height: 5vw;
+        max-height: 55px;
+        background-color: #ccc;
+        margin-right: 2%; }
+        #footBox > .snsBox > ul > li > a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          background-repeat: no-repeat;
+          background-size: 400%;
+          background-image: url(../img/aquarium/sns_link.jpg); }
+      #footBox > .snsBox > ul > li:nth-child(1) > a {
+        background-position: 0 0; }
+      #footBox > .snsBox > ul > li:nth-child(2) > a {
+        background-position: 33% 0; }
+      #footBox > .snsBox > ul > li:nth-child(3) > a {
+        background-position: 66% 0; }
+      #footBox > .snsBox > ul > li:nth-child(4) > a {
+        background-position: 99% 0; }
+      #footBox > .snsBox > ul > li:last-child {
+        margin-right: 0; }
+  #footBox > .awardBox {
+    width: 100%;
+    height: 70px;
+    border: 1px solid #222;
+    box-sizing: border-box;
+    background-color: #fff; }
+    #footBox > .awardBox > ul {
+      width: 90%;
+      height: 100%;
+      margin: auto;
+      padding-top: 10px;
+      box-sizing: border-box; }
+      #footBox > .awardBox > ul > li {
+        float: left;
+        width: 27vw;
+        max-width: 230px;
+        height: 8vw;
+        max-height: 48px;
+        background-color: #ccc;
+        background-repeat: no-repeat;
+        background-image: url(../img/aquarium/bn_award_mobile.jpg); }
+      #footBox > .awardBox > ul > li:nth-child(1) {
+        background-size: 400%;
+        background-position: 0 50%; }
+      #footBox > .awardBox > ul > li:nth-child(1) > a {
+        display: block;
+        width: 100%;
+        height: 100%; }
+      #footBox > .awardBox > ul > li:nth-child(2) {
+        background-size: 300%;
+        background-position: 33% 50%;
+        margin-right: 5px; }
+      #footBox > .awardBox > ul > li:nth-child(3) {
+        background-size: 240%;
+        background-position: 97% 30%; }
+      #footBox > .awardBox > ul > li:last-child {
+        margin-right: 0; }
+  #footBox > .infoBox {
+    padding-top: 20px;
+    width: 100%;
+    height: 125px;
+    box-sizing: border-box;
+    color: #eee;
+    font-weight: lighter; }
+    #footBox > .infoBox > .info_01 {
+      font-size: 0.5rem;
+      margin-bottom: 20px; }
+      #footBox > .infoBox > .info_01 > a {
+        color: #eee; }
+    #footBox > .infoBox > .info_02 {
+      font-size: 0.2rem;
+      word-spacing: keep-all; }
